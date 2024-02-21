@@ -1,6 +1,29 @@
 
 /* ------------------------FORM SECTION --------------------------------------------- */
+.form-section-main{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+   background-color: var(--black);
+}
 
+.form-section-main::before{
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+    background-image: url(../images/pics/about/1.jpg);
+    content: '';
+    position: absolute;
+    background-attachment: fixed;
+    top: 0;
+    background-size: cover;
+    opacity: 0.5;
+    left: 0;
+    background-repeat: no-repeat;
+
+}
 
 .form-section {
     width: 100%;
@@ -11,7 +34,6 @@
     background-attachment: fixed;
     background-size: cover;
     z-index: 0;
-    background-image: url(../images/pics/about/1.jpg);
 }
 
 .form-section .form-container {
@@ -288,8 +310,6 @@
     }
 
     .form-section .form-container .form-title h3 {
-        color: var(--red);
-        
 
     }
 
@@ -298,8 +318,6 @@
     }
 
     .form-section .contact-section .section-title h3 {
-        color: var(--red);
-        
 
     }
 
@@ -403,7 +421,6 @@
     }
 
     .form-section .form-container .form-title h3 {
-        color: var(--red);
         
 
     }
@@ -413,8 +430,6 @@
     }
 
     .form-section .contact-section .section-title h3 {
-        color: var(--red);
-        
 
     }
 
@@ -463,7 +478,6 @@
         width: 100%;
         border: 1px solid var(--red);
         padding: 2%;
-        color: var(--red);
         background: transparent;
         transition: 0.5s;
         font-weight: 700;
@@ -518,7 +532,6 @@
     }
 
     .form-section .form-container .form-title h3 {
-        color: var(--red);
         
 
     }
@@ -528,7 +541,6 @@
     }
 
     .form-section .contact-section .section-title h3 {
-        color: var(--red);
         
 
     }
@@ -578,7 +590,6 @@
         width: 100%;
         border: 1px solid var(--red);
         padding: 2%;
-        color: var(--red);
         background: transparent;
         transition: 0.5s;
         font-weight: 700;

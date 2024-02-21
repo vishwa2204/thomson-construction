@@ -69,6 +69,39 @@
     border-top: 3px solid var(--black);
 }
 
+.about-section-images .about-experience1 {
+    content: '';
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 3;
+    padding: 2%;
+    display: flex;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: var(--color);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    text-align: center;
+    border-top: 3px solid var(--black);
+}
+
+
+.about-experience1 h4 {
+    font-weight: 900;
+    font-size: 30px !important;
+}
+
+
+.about-experience1 span {
+    font-weight: 900;
+    color: var(--white);
+}
+
 .about-experience h4 {
     font-weight: 900;
     font-size: 40px !important;
@@ -97,6 +130,43 @@
     position: absolute;
     right: 10px;
     bottom: 10px;
+    object-fit: cover;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+
+.about-section-images .why-choose-1 {
+    width: 100% !important;
+    height: 50% !important;
+    position: absolute;
+    left: 0px !important;
+    border-radius: 15px;
+    top: auto !important;
+    bottom: 0px !important;
+    object-fit: cover;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.about-section-images .why-choose-2 {
+    width: 49% !important;
+    height: 47% !important;
+    position: absolute;
+    right: 0px !important;
+    bottom: auto;
+    top: 0 !important;
+    object-fit: cover;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.about-section-images .why-choose-3 {
+    width: 49% !important;
+    height: 47% !important;
+    position: absolute;
+    left: 0px !important;
+    bottom: auto;
+    top: 0 !important;
     object-fit: cover;
     border-radius: 15px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
@@ -152,7 +222,7 @@
 
 .about-services-container .about-main-services .about-service-icon i {
     font-size: 30px;
-    color: var(--color);
+    color: var(--dBlue);
 }
 
 .about-service-content {
@@ -516,11 +586,16 @@
 }
 
 .loading{
-    width: 80% !important;
+    width: 95% !important;
     transition: 2s ease-out !important;
 }
 
 .loading2{
     transition: 2s ease-in-out !important;
-    width: 95% !important;
+    width: 100% !important;
+}
+
+.loading3{
+    transition: 2s ease-in !important;
+    width: 60% !important;
 }
