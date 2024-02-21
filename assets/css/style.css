@@ -939,7 +939,6 @@ ul{
 .hero-bg-half {
     background-image: url(https://html.dynamiclayers.net/te/buildex/assets/img/hero-bg-half.jpg);
     clip-path: polygon(25% 0%,100% 0%,100% 100%,0% 100%);
-    filter: grayscale(100%);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
