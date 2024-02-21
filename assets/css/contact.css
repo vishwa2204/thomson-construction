@@ -1,0 +1,617 @@
+
+/* ------------------------FORM SECTION --------------------------------------------- */
+
+
+.form-section {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    background-attachment: fixed;
+    background-size: cover;
+    z-index: 0;
+    background-image: url(../images/pics/about/1.jpg);
+}
+
+.form-section .form-container {
+    width: 50%;
+    height: auto;
+    z-index: 1;
+    padding: 2%;
+}
+
+.form-section .form-container .form-title {
+    margin-bottom: 5%;
+}
+
+.form-section .form-container .form-title h3 {
+    color: var(--color);
+    
+
+}
+
+.form-section .contact-section .section-title {
+    margin-bottom: 5%;
+}
+
+.form-section .contact-section .section-title h3 {
+    color: var(--color);
+    
+
+}
+
+.form-section .form-container .form-title p {
+    color: var(--gray);
+    
+
+}
+
+.form-section .contact-section .section-title p {
+    color: var(--gray);
+    
+
+}
+
+.form-section .contact-section {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    z-index: 1;
+    padding: 2%;
+}
+
+
+.form-section .contact-section .contact-content {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+
+}
+
+.form-section .contact-section .contact-content .service-content-container {
+    width: 30%;
+    position: relative;
+    height: 200px;
+    background-color: rgb(237, 237, 237);
+    overflow: hidden;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+.form-section .contact-section .contact-content .service-content-container .services-icons {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: var(--color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 1s;
+}
+
+.form-section .contact-section .contact-content .service-content-container .services-text {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2%;
+    text-align: center;
+    bottom: -100%;
+    transition: 0.5s;
+}
+
+.form-section .contact-section .contact-content .service-content-container .services-text a {
+    text-decoration: none;
+    color: var(--white);
+    font-size: 12px;
+    transition: 0.5s;
+}
+
+.form-section .contact-section .contact-content .service-content-container .services-text a:hover {
+    color: var(--color);
+}
+
+.form-section .contact-section .contact-content .service-content-container:hover .services-icons {
+    top: -100%;
+}
+
+.form-section .contact-section .contact-content .service-content-container:hover .services-text {
+    bottom: 0;
+}
+
+.service-background {
+    width: 100%;
+    height: 100%;
+    background-color: var(--color);
+    transition: 1s;
+    opacity: 0;
+}
+
+.form-section .contact-section .contact-content .service-content-container:hover .service-background {
+    opacity: 1;
+}
+
+.form-section .form-container form {
+    width: 100%;
+}
+
+.form-section .form-container form input {
+    width: 80%;
+    padding: 1%;
+    margin-bottom: 2%;
+    background: rgb(239, 239, 239);
+    border: none;
+}
+
+.form-section .form-container form textarea {
+    width: 80%;
+    padding: 1%;
+    margin-bottom: 2%;
+    background: rgb(239, 239, 239);
+
+    border: none;
+}
+
+.form-section .form-container form button {
+    width: 80%;
+    border: 1px solid var(--color);
+    padding: 2%;
+    color: var(--color);
+    background: var(--white);
+    transition: 0.5s;
+    font-weight: 700;
+}
+
+.form-section .form-container form button:hover {
+    color: var(--white);
+    background-color: var(--color);
+}
+
+
+.form-section .contact-background {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    opacity: 0.1;
+    left: 0;
+    top: 0;
+}
+
+/* ----------------------iframe section ------------------------------------------------------ */
+
+
+.iframe-section .iframe-title {
+    text-align: center;
+    margin-bottom: 5%;
+}
+
+.iframe-section .iframe-title h3 {
+    
+    color: var(--red);
+}
+
+.iframe-section .iframe-title p {
+    
+    color: var(--gray);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:320px) {
+
+    /* ------------------------FORM SECTION --------------------------------------------- */
+
+
+    .form-section {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: space-between;
+        position: relative;
+        z-index: 0;
+        padding: 5%;
+    }
+
+    .form-section .form-container {
+        width: 100%;
+        height: auto;
+        z-index: 1;
+        padding: 2%;
+    }
+
+    .form-section .form-container .form-title {
+        margin-bottom: 5%;
+    }
+
+    .form-section .form-container .form-title h3 {
+        color: var(--red);
+        
+
+    }
+
+    .form-section .contact-section .section-title {
+        margin-bottom: 5%;
+    }
+
+    .form-section .contact-section .section-title h3 {
+        color: var(--red);
+        
+
+    }
+
+    .form-section .form-container .form-title p {
+        color: var(--gray);
+        
+
+    }
+
+    .form-section .contact-section .section-title p {
+        color: var(--gray);
+        
+
+    }
+
+    .form-section .contact-section {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        z-index: 1;
+        padding: 0%;
+    }
+
+
+    .form-section .form-container form {
+        width: 100%;
+    }
+
+    .form-section .form-container form input {
+        width: 100%;
+        padding: 1%;
+        margin-bottom: 2%;
+        background: rgb(196, 196, 196);
+        border: none;
+    }
+
+    .form-section .form-container form textarea {
+        width: 100%;
+        padding: 1%;
+        margin-bottom: 2%;
+        background: rgb(196, 196, 196);
+        border: none;
+    }
+
+    .form-section .form-container form button {
+        width: 100%;
+        border: 1px solid var(--red);
+        padding: 2%;
+        color: var(--red);
+        background: transparent;
+        transition: 0.5s;
+        font-weight: 700;
+    }
+
+
+
+    .form-section .contact-section .contact-content {
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .form-section .contact-section .contact-content .service-content-container {
+        width: 80%;
+        position: relative;
+        height: 200px;
+        background-color: rgb(237, 237, 237);
+        overflow: hidden;
+        margin-bottom: 5%;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    }
+
+}
+
+@media screen and (min-width:321px) and (max-width:425px) {
+    /* ------------------------FORM SECTION --------------------------------------------- */
+
+
+    .form-section {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: space-between;
+        position: relative;
+        z-index: 0;
+        padding: 5%;
+    }
+
+    .form-section .form-container {
+        width: 100%;
+        height: auto;
+        z-index: 1;
+        padding: 2%;
+    }
+
+    .form-section .form-container .form-title {
+        margin-bottom: 5%;
+    }
+
+    .form-section .form-container .form-title h3 {
+        color: var(--red);
+        
+
+    }
+
+    .form-section .contact-section .section-title {
+        margin-bottom: 5%;
+    }
+
+    .form-section .contact-section .section-title h3 {
+        color: var(--red);
+        
+
+    }
+
+    .form-section .form-container .form-title p {
+        color: var(--gray);
+        
+
+    }
+
+    .form-section .contact-section .section-title p {
+        color: var(--gray);
+        
+
+    }
+
+    .form-section .contact-section {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        z-index: 1;
+        padding: 0%;
+    }
+
+
+    .form-section .form-container form {
+        width: 100%;
+    }
+
+    .form-section .form-container form input {
+        width: 100%;
+        padding: 1%;
+        margin-bottom: 2%;
+        background: rgb(196, 196, 196);
+        border: none;
+    }
+
+    .form-section .form-container form textarea {
+        width: 100%;
+        padding: 1%;
+        margin-bottom: 2%;
+        background: rgb(196, 196, 196);
+        border: none;
+    }
+
+    .form-section .form-container form button {
+        width: 100%;
+        border: 1px solid var(--red);
+        padding: 2%;
+        color: var(--red);
+        background: transparent;
+        transition: 0.5s;
+        font-weight: 700;
+    }
+
+
+
+    .form-section .contact-section .contact-content {
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .form-section .contact-section .contact-content .service-content-container {
+        width: 80%;
+        position: relative;
+        height: 200px;
+        background-color: rgb(237, 237, 237);
+        overflow: hidden;
+        margin-bottom: 5%;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    }
+
+}
+
+@media screen and (min-width:426px) and (max-width:600px) {
+    /* ------------------------FORM SECTION --------------------------------------------- */
+
+
+    .form-section {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: space-between;
+        position: relative;
+        z-index: 0;
+        padding: 5% ;
+    }
+
+    .form-section .form-container {
+        width: 100%;
+        height: auto;
+        z-index: 1;
+        padding: 2%;
+    }
+
+    .form-section .form-container .form-title {
+        margin-bottom: 5%;
+    }
+
+    .form-section .form-container .form-title h3 {
+        color: var(--red);
+        
+
+    }
+
+    .form-section .contact-section .section-title {
+        margin-bottom: 5%;
+    }
+
+    .form-section .contact-section .section-title h3 {
+        color: var(--red);
+        
+
+    }
+
+    .form-section .form-container .form-title p {
+        color: var(--gray);
+        
+
+    }
+
+    .form-section .contact-section .section-title p {
+        color: var(--gray);
+        
+
+    }
+
+    .form-section .contact-section {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        z-index: 1;
+        padding: 0%;
+    }
+
+
+    .form-section .form-container form {
+        width: 100%;
+    }
+
+    .form-section .form-container form input {
+        width: 100%;
+        padding: 1%;
+        margin-bottom: 2%;
+        background: rgb(196, 196, 196);
+        border: none;
+    }
+
+    .form-section .form-container form textarea {
+        width: 100%;
+        padding: 1%;
+        margin-bottom: 2%;
+        background: rgb(196, 196, 196);
+        border: none;
+    }
+
+    .form-section .form-container form button {
+        width: 100%;
+        border: 1px solid var(--red);
+        padding: 2%;
+        color: var(--red);
+        background: transparent;
+        transition: 0.5s;
+        font-weight: 700;
+    }
+
+
+
+    .form-section .contact-section .contact-content {
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .form-section .contact-section .contact-content .service-content-container {
+        width: 80%;
+        position: relative;
+        height: 200px;
+        background-color: rgb(237, 237, 237);
+        overflow: hidden;
+        margin-bottom: 5%;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    }
+
+}
+
+@media screen and (min-width:601px) and (max-width:768px) {}
+
+@media screen and (min-width:769px) and (max-width:900px) {}
+
+@media screen and (min-width:901px) and (max-width:992px) {}
+
+@media screen and (min-width:993px) and (max-width:1024px) {}
+
+@media screen and (min-width:1025px) and (max-width:1140px) {}
