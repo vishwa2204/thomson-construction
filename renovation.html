@@ -346,14 +346,52 @@
 
                 <h2>Request a Free Quote</h2>
 
-                <form action="" method="POST">
-                    <input type="text" placeholder="First Name"><br>
-                    <input type="text" placeholder="Second Name"><br>
-                    <input type="email" placeholder="Email"><br>
-                    <input type="number" placeholder="Mobile Number"><br>
-                    <textarea name="" id="" cols="30" rows="5" placeholder="What you need"></textarea><br>
-                    <button type="submit">Submit</button>
+                <form action="whatsApp()" method="POST">
+                    <input type="text" id="fName" placeholder="First Name"><br>
+                    <input type="text" id="sName" placeholder="Second Name"><br>
+                    <input type="email" id="email" placeholder="Email"><br>
+                    <input type="number" id="number" placeholder="Mobile Number"><br>
+                    <textarea name="" id="message" cols="30" rows="5" placeholder="What you need"></textarea><br>
+                    <button type="submit" onclick="whatsApp()">Submit</button>
                 </form>
+                <script>
+                    // Home Form 
+
+                    function whatsApp() {
+                        var name = document.getElementById("fName").value;
+                        var name2 = document.getElementById("sName").value;
+                        var email = document.getElementById("email").value;
+                        var number = document.getElementById("number").value;
+                        var message = document.getElementById("message").value;
+
+
+                        if (name == "" || name2 == "" || email == "" || number == "" || message == "") {
+                            alert("Enter All Fields");
+
+                        } else {
+
+
+                            // Format the message content
+                            var formattedMessage = encodeURIComponent(
+
+                                " *Name* : " + name + " " + name2 + "\n" +
+                                " *Email* : " + email + "\n" +
+                                " *Mobile Number* : " + number + "\n" +
+                                " *Message* : " + message);
+
+                            // Encode the message for the URL
+                            //   var encodedMessage = encodeURIComponent(formattedMessage);
+
+                            // Construct the WhatsApp URL
+                            var url = "https://wa.me/+919342229700?text=" + formattedMessage;
+
+                            // Open the WhatsApp URL in a new tab/window
+                            window.open(url, '_black');
+
+
+                        }
+                    }
+                </script>
             </div>
         </div>
     </section>
