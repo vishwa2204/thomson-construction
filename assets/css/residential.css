@@ -677,7 +677,7 @@ background: linear-gradient(176deg, rgba(0,43,87,1) 7%, rgba(5,6,9,1) 78%);
 
 .industries-carousel-boxs p{
     color: var(--white);
-    font-weight: 15px;
+    font-size: 14px;
 }
 
 .industries-carousel-boxs li {

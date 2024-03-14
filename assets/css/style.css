@@ -80,7 +80,7 @@ ul {
 
 .navbar .navbar-brand img {
     width: 150px;
-    height: 70px;
+    height: 100px;
     object-fit: contain;
 }
 
@@ -657,7 +657,7 @@ ul {
 .banner-content h1{
     color: var(--white);
     text-align: start;
-    font-size: 60px !important;
+    font-size: 40px !important;
     font-weight: 900;
 }
 
@@ -692,7 +692,7 @@ ul {
         .banner-content h1{
             color: var(--white);
             text-align: start;
-            font-size: 40px !important;
+            font-size: 25px !important;
             font-weight: 900;
         }
     }
